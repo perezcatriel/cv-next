@@ -23,10 +23,10 @@ export default function Home() {
 
 				<div className={styles.description}>
 					<Image
-						src="/images/developer.webp"
+						src="/images/desk.jpg"
 						alt="slogan"
-						width={400}
-						height={300}
+						width={1100}
+						height={700}
 					/>
 					<h2>Creación de Sitio Web</h2>
 
