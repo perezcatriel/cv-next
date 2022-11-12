@@ -1,0 +1,25 @@
+.navBar {
+	width: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: -20px;
+}
+
+.navBarTitle {
+	font-size: 2rem;
+	text-shadow: 0 0 5px var(--black);
+}
+
+.navBarTitleStrong {
+	color: var(--yellow);
+}
+
+.navBarMenu {
+	background-color: var(--gray);
+}
+
+.navBarMenu:hover {
+	background-color: var(--yellow);
+}
