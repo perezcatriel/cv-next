@@ -1,0 +1,56 @@
+/* .presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.paragraph {
+	font-size: 1.5rem;
+}
+
+.title {
+	font-size: 5rem;
+	margin-top: -10px;
+}
+
+.title strong {
+	color: var(--yellow);
+}
+
+.desktop {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	width: 90vw;
+	background-color: var(--gray);
+    position:sticky;
+    top: 80px;
+    z-index: -20;
+}
+
+.text {
+	margin-left: 50px;
+	width: 30vw;
+	color: var(--black);
+}
+
+.text h2 {
+	/* color: var(--gray); */
+	/* text-shadow: 0 0 1px var(--black); */
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1.5px;
+	font-size: 1.1rem;
+}
+
+.list li::before {
+	content: url("/images/icons/ok-1.svg");
+}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Menu from "../../components/navBar/menu";
 import styles from "../../styles/NavBar.module.css";
 
 export default function NavBar() {
@@ -8,13 +9,7 @@ export default function NavBar() {
 				SKOL <strong className={styles.navBarTitleStrong}>_dev</strong>
 			</h1>
 
-			<Image
-				src="/images/icons/menu.svg"
-				alt="icon-menu"
-				width={20}
-				height={20}
-				className={styles.navBarMenu}
-			/>
+			<Menu />
 		</nav>
 	);
 }

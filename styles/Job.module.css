@@ -1,0 +1,13 @@
+.job {
+    background-color: var(--black);
+    width: 90vw;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+}

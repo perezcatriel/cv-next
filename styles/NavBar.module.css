@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: space-between;
 	position: sticky;
-	top: -20px;
+	top: -10px;
 }
 
 .navBarTitle {
@@ -16,10 +16,49 @@
 	color: var(--yellow);
 }
 
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 30vw;
+}
+
 .navBarMenu {
 	background-color: var(--gray);
 }
 
 .navBarMenu:hover {
 	background-color: var(--yellow);
+}
+
+.list {
+	display: flex;
+	list-style-type: none;
+}
+
+.list li {
+	margin: 10px;
+	text-shadow: 0 0 5px var(--black);
+	font-weight: bold;
+	/* text-decoration: none; */
+}
+
+.list li:hover {
+	color: var(--yellow);
+}
+
+.button {
+	padding: 20px;
+	border-radius: 30px;
+	/* outline: none; */
+	border: none;
+	font-weight: bold;
+	transition: transform 0.5s;
+}
+
+.button:hover {
+	background-color: var(--yellow);
+	color: var(--black);
+	transform: scale(1.2);
+	transition: transform 0.2s;
 }

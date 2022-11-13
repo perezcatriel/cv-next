@@ -1,0 +1,9 @@
+.projects {
+    background-color: var(--black);
+    padding-top: 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+}
