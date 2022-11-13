@@ -23,6 +23,14 @@ export default function Home() {
 				<Job />
 
 				<Projects />
+
+				<div className={styles.contact}>
+					<h2>Obtenga una cotización para su proyecto</h2>
+
+					<button className={styles.button}>
+						<a href="mailto:perezcatriel@gmail.com">CONTACTAME</a>
+					</button>
+				</div>
 			</main>
 
 			<footer className={styles.footer}>

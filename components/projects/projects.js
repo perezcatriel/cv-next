@@ -35,14 +35,6 @@ export default function Projects() {
 					<h2>Mar de Cores &rarr;</h2>
 					<p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
 				</a>
-
-				<div className={styles.contact}>
-					<h2>Obtenga una cotización para su proyecto</h2>
-
-					<button className={styles.button}>
-						<a href="mailto:perezcatriel@gmail.com">CONTACTAME</a>
-					</button>
-				</div>
 			</div>
 		</div>
 	);
